@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# React Table Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is a simple React application that demonstrates the use of the `react-table` library to create dynamic and customizable tables. It is built using modern React features and tools.
 
-In the project directory, you can run:
+## Features
 
-### `yarn start`
+- Dynamic table rendering with `react-table`.
+- Modern React setup with `react-scripts`.
+- Includes testing utilities for robust application testing.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Libraries Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Core Libraries
 
-### `yarn test`
+- **React**: A JavaScript library for building user interfaces.
+- **React-DOM**: Provides DOM-specific methods for React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Table Library
 
-### `yarn build`
+- **React-Table**: A lightweight and flexible library for creating tables in React. It supports features like sorting, filtering, and pagination.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Development Tools
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React-Scripts**: Provides a set of scripts for building, testing, and running the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Testing Libraries
 
-### `yarn eject`
+- **@testing-library/react**: For testing React components.
+- **@testing-library/jest-dom**: Provides custom Jest matchers for DOM node assertions.
+- **@testing-library/user-event**: Simulates user interactions.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Performance Monitoring
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Web-Vitals**: A library for measuring and reporting performance metrics.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+- Node.js and npm installed on your system.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run `npm install` to install dependencies.
 
-### Code Splitting
+### Running the Application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Start the development server with:
+  ```bash
+  npm start
+  ```
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Analyzing the Bundle Size
+### Building the Application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Create a production build with:
+  ```bash
+  npm run build
+  ```
 
-### Making a Progressive Web App
+### Running Tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Run tests with:
+  ```bash
+  npm test
+  ```
 
-### Advanced Configuration
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- `src/`: Contains the source code of the application.
+- `public/`: Contains static assets like `index.html` and icons.
+- `package.json`: Lists dependencies and scripts.
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
